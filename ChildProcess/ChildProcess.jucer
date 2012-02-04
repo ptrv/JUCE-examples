@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="YWzyUx" name="ChildProcess" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="net.petervasil.ChildProcess" jucerVersion="3.0.0">
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/Linux" juceFolder="../juce/modules"/>
+    <XCODE_MAC targetFolder="Builds/MacOSX" objCExtraSuffix="X5Ob6D" juceFolder="../juce/modules"/>
+    <VS2010 targetFolder="Builds/VisualStudio2010" libraryType="1" juceFolder="../juce/modules"/>
+    <VS2008 targetFolder="Builds/VisualStudio2008" libraryType="1" juceFolder="../juce/modules"/>
+  </EXPORTFORMATS>
+  <CONFIGURATIONS>
+    <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="ChildProcess"
+                   osxSDK="default" osxCompatibility="default" osxArchitecture="default"/>
+    <CONFIGURATION name="Release" isDebug="0" optimisation="2" targetName="ChildProcess"
+                   osxSDK="default" osxCompatibility="default" osxArchitecture="default"/>
+  </CONFIGURATIONS>
+  <MAINGROUP id="IoYwqk" name="ChildProcess">
+    <GROUP id="{5D2F2F9A-C025-F896-CAFC-A91318D236CF}" name="Source">
+      <FILE id="coT7mc" name="TextConsole.h" compile="0" resource="0" file="Source/TextConsole.h"/>
+      <FILE id="MLQDJd" name="ContentComp.cpp" compile="1" resource="0" file="Source/ContentComp.cpp"/>
+      <FILE id="M26cN2" name="ContentComp.h" compile="0" resource="0" file="Source/ContentComp.h"/>
+      <FILE id="pPB3mm" name="MainWindow.cpp" compile="1" resource="0" file="Source/MainWindow.cpp"/>
+      <FILE id="Eu6mWe" name="MainWindow.h" compile="0" resource="0" file="Source/MainWindow.h"/>
+      <FILE id="lz3LnO" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_audio" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{19F018B2-2368-9E53-7830-CDE3A2AFA172}") = "ChildProcess", "ChildProcess.vcproj", "{3E8320A5-F431-362D-7992-BDDD4392577C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E8320A5-F431-362D-7992-BDDD4392577C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E8320A5-F431-362D-7992-BDDD4392577C}.Debug|Win32.Build.0 = Debug|Win32
+		{3E8320A5-F431-362D-7992-BDDD4392577C}.Release|Win32.ActiveCfg = Release|Win32
+		{3E8320A5-F431-362D-7992-BDDD4392577C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

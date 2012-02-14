@@ -47,7 +47,7 @@ public:
     //==============================================================================
     const String getApplicationName()
     {
-        return "ChildProcessTester";
+        return "ChildProcess";
     }
 
     const String getApplicationVersion()
